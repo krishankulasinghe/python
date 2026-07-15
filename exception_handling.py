@@ -54,3 +54,15 @@ finally:
 x = -1
 if x < 0:
     raise Exception("x must be non-negative")
+
+
+# Execption Hierarchy: Python has a built-in hierarchy of exceptions, with the base class being Exception.
+# Some common built-in exceptions include:
+# exception types:
+# SystemExit: Raised by the sys.exit() function.
+# KeyboardInterrupt: Raised when the user interrupts program execution, usually by pressing Ctrl+C.
+# ValueError: Raised when a function receives an argument of the right type but an inappropriate value.
+# TypeError: Raised when an operation or function is applied to an object of inappropriate type.
+# IndexError: Raised when a sequence subscript is out of range.
+# KeyError: Raised when a dictionary key is not found.
+# AttributeError: Raised when an attribute reference or assignment fails.
