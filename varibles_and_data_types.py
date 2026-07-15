@@ -9,6 +9,10 @@ print(str1 + " " + str2) # This will concatenate str1 and str2 with a space in b
 print(str1 , str2) # This will print str1 and str2 separated by a space: Python is fun! Let's learn Python together.
 print(str1 * 2) # This will print str1 twice: Python is fun!Python is fun!
 
+x = 4       # x is of type int
+x = "Sally" # x is now of type str
+print(x)
+
 # Python has 3 numeric types: int, float, and complex. Here are some examples:
 int_num = 10
 float_num = 10.5

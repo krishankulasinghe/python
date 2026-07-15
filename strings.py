@@ -10,8 +10,17 @@ print(text2)
 name = input("Enter your name: ")
 print("Hello, " + name + "!") # Output: Hello, [name]!
 
+age = int(input("Enter your age: ")) # input function returns a string, so we need to convert it to an integer using int() function.
+print("You are " + str(age) + " years old.") # Output: You are [age] years old. (we need to convert the integer age back to string using str() function to concatenate it with other strings.)
+
 text = "Hello" "World"
 print(text) # Output: HelloWorld
+
+# Print Without a New Line
+# the end parameter of the print function is used to specify what should be printed at the end of the output. 
+#  By default, it is a newline character, but we can change it to a space or any other string.
+print("Hello World!", end=" ")
+print("I will print on the same line.") # Output: Hello World! I will print on the same line. 
 
 text1 = "Hello World!"
 print(text1.upper()) # Output: HELLO WORLD!
